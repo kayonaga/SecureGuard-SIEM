@@ -6,4 +6,4 @@ waterlilo - Кувшинов Даниил Дмитриевич Team lead
 
 kayonaga - Ждан Виктор Александрович Product owner
 
-karig - Агамалян Карен Эдикович DevOps
+karikag - Агамалян Карен Эдикович DevOps
