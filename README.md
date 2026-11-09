@@ -16,7 +16,7 @@ karikag - Агамалян Карен Эдикович - DevOps
 
 ### Описание ролей участников
 
-` **waterlilo - Lead developer** `
+**waterlilo - Lead developer**
 
 > Рарзаботка плана внедрения ядра собра системных логов
 > 
