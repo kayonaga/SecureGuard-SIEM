@@ -2,8 +2,8 @@
 
 2ИП-16-25
 
-waterlilo - Кувшинов Даниил Дмитриевич Team lead
+waterlilo - Кувшинов Даниил Дмитриевич - Team lead
 
-kayonaga - Ждан Виктор Александрович Product owner
+kayonaga - Ждан Виктор Александрович - Product owner
 
-karikag - Агамалян Карен Эдикович DevOps
+karikag - Агамалян Карен Эдикович - DevOps
