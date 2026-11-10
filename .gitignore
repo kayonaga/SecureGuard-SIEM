@@ -1,0 +1,21 @@
+# Visual Studio: local settings and caches
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET: generated build output
+[Bb]in/
+[Oo]bj/
+TestResults/
+artifacts/
+
+# Local secrets and private certificates
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+
+# Keep sample audit logs in the repository: do not ignore all *.log files.

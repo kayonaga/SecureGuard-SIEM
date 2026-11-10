@@ -1,0 +1,25 @@
+@SecureGuard.Api_HostAddress = http://localhost:5102
+
+### Учебное событие — ожидаем 200 OK
+GET {{SecureGuard.Api_HostAddress}}/api/events/example
+Accept: application/json
+
+### Приём корректного события — ожидаем 200 OK
+POST {{SecureGuard.Api_HostAddress}}/api/events
+Content-Type: application/json
+
+{
+  "host": "server-02",
+  "source": "ssh",
+  "rawMessage": "Failed password for student from 192.168.1.20 port 50231 ssh2"
+}
+
+### Пустое имя сервера — ожидаем 400 Bad Request
+POST {{SecureGuard.Api_HostAddress}}/api/events
+Content-Type: application/json
+
+{
+  "host": "",
+  "source": "ssh",
+  "rawMessage": "Failed password for student from 192.168.1.20 port 50231 ssh2"
+}
